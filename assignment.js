@@ -1,5 +1,5 @@
 
-
+//  https://github.com/Mehedi-Hasan2005/assginment-3.js
 
 
    // Kilometer To Meter Start .
@@ -72,3 +72,35 @@ var TotalHotalCost = hotalCost(32)
 console.log(TotalHotalCost);
 
 // Hotel Cost Start.
+
+
+
+
+
+
+// budgetCalculator  start.
+
+function budgetCalculator(watch, mobile, laptop){
+
+      if (watch >=0 && mobile>=0 && laptop>=0){
+        const watchprice = 50;
+        const mobileprice = 100;
+        const laptoprice =  500;
+
+        var watchmony = watchprice*watch;
+        var mobilemony = mobileprice *mobile;
+        var laptopmony = laptoprice * laptop;
+
+        var totalmony = watchmony + mobilemony + laptopmony ;
+
+        console.log(totalmony);
+
+      }
+      else{
+        console.log("Wacth,Mobile,Laptop Cannot be Negative")
+      }
+    
+}
+budgetCalculator(2,3,6);
+
+
